@@ -11,7 +11,7 @@ import openai
 # -------------- Configuración ------------------
 st.set_page_config(page_title="OCR + GPT", page_icon="🧾")
 
-openai.api_key = st.secrets[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]  # o usa os.getenv
+openai.api_key = st.secrets["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"]  # o usa os.getenv
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"  # ruta en contenedor
 
 st.title("OCR de facturas + análisis con OpenAI")
