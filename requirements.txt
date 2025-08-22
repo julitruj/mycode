@@ -3,4 +3,4 @@ pytesseract
 opencv-python-headless
 Pillow
 pdf2image
-openai
+openai==0.28.1
